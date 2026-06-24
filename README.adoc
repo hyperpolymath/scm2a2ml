@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: CC-BY-SA-4.0
 // Copyright (c) Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
 = scm2a2ml
 Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
@@ -76,14 +76,14 @@ The tool expects Scheme S-expression format as used in .scm metadata files:
 
 [source,scheme]
 ----
-;; SPDX-License-Identifier: PMPL-1.0-or-later
+;; SPDX-License-Identifier: CC-BY-SA-4.0
 
 (state
   (version . "1.0.0")
   (phase . "framework")
   (project
     (name . "my-project")
-    (license . "AGPL-3.0-or-later")))
+    (license . "MPL-2.0")))
 ----
 
 == Output Format
@@ -92,7 +92,7 @@ The tool outputs A2ML format:
 
 [source,toml]
 ----
-# SPDX-License-Identifier: PMPL-1.0-or-later
+# SPDX-License-Identifier: CC-BY-SA-4.0
 # Copyright (c) 2026 Jonathan D.A. Jewell (hyperpolymath)
 #
 # Converted from .scm format

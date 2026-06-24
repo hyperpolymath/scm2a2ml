@@ -160,7 +160,7 @@ transpile_scm_to_a2ml() {
             
             # Create new file with header
             {
-                echo "# SPDX-License-Identifier: PMPL-1.0-or-later"
+                echo "# SPDX-License-Identifier: MPL-2.0"
                 echo "# Copyright (c) $(date +'%Y') Jonathan D.A. Jewell (hyperpolymath) <j.d.a.jewell@open.ac.uk>"
                 echo "#"
                 echo "# ${base} — Transpiled from .scm format"
